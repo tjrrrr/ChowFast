@@ -30,10 +30,17 @@
 		7601F3EF1B2FFE5200D5E366 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7601F3E51B2FFE5200D5E366 /* Security.framework */; };
 		7601F3F01B2FFE5200D5E366 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7601F3E61B2FFE5200D5E366 /* StoreKit.framework */; };
 		7601F3F11B2FFE5200D5E366 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7601F3E71B2FFE5200D5E366 /* SystemConfiguration.framework */; };
+		762D6F681B59571D002025E4 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762D6F671B59571D002025E4 /* Notifications.swift */; };
+		763835201B39B23F00B63DEB /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7638351F1B39B23F00B63DEB /* DetailViewController.swift */; };
+		765FEF001B5C0CB50049CAAA /* ReservationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765FEEFF1B5C0CB50049CAAA /* ReservationViewController.swift */; };
+		7668045C1B576DA600D4E373 /* FeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7668045B1B576DA600D4E373 /* FeedbackViewController.swift */; };
+		7668045E1B5773A000D4E373 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7668045D1B5773A000D4E373 /* MessageUI.framework */; };
+		76768C801B399D0C00B5000E /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76768C7F1B399D0C00B5000E /* TableViewController.swift */; };
 		76862AB31B302E5E009CDA15 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76862AB11B302E5E009CDA15 /* Accounts.framework */; };
 		76862AB41B302E5E009CDA15 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76862AB21B302E5E009CDA15 /* Social.framework */; };
 		76862AB61B303100009CDA15 /* CustomLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76862AB51B303100009CDA15 /* CustomLoginViewController.swift */; };
 		76862AB81B303117009CDA15 /* CustomSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76862AB71B303117009CDA15 /* CustomSignUpViewController.swift */; };
+		76EFCBF61B510CC80053A36D /* eWalletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EFCBF51B510CC80053A36D /* eWalletViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,10 +81,18 @@
 		7601F3E51B2FFE5200D5E366 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		7601F3E61B2FFE5200D5E366 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		7601F3E71B2FFE5200D5E366 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		762D6F671B59571D002025E4 /* Notifications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
+		7638351F1B39B23F00B63DEB /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		765FEEFF1B5C0CB50049CAAA /* ReservationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReservationViewController.swift; sourceTree = "<group>"; };
+		7668045B1B576DA600D4E373 /* FeedbackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedbackViewController.swift; sourceTree = "<group>"; };
+		7668045D1B5773A000D4E373 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		766E7C7B1B3859170096B8AA /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		76768C7F1B399D0C00B5000E /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		76862AB11B302E5E009CDA15 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		76862AB21B302E5E009CDA15 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		76862AB51B303100009CDA15 /* CustomLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomLoginViewController.swift; sourceTree = "<group>"; };
 		76862AB71B303117009CDA15 /* CustomSignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSignUpViewController.swift; sourceTree = "<group>"; };
+		76EFCBF51B510CC80053A36D /* eWalletViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = eWalletViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7668045E1B5773A000D4E373 /* MessageUI.framework in Frameworks */,
 				76862AB31B302E5E009CDA15 /* Accounts.framework in Frameworks */,
 				76862AB41B302E5E009CDA15 /* Social.framework in Frameworks */,
 				7601F3E81B2FFE5200D5E366 /* CFNetwork.framework in Frameworks */,
@@ -120,6 +136,7 @@
 		7601F37C1B2FFCF100D5E366 = {
 			isa = PBXGroup;
 			children = (
+				7668045D1B5773A000D4E373 /* MessageUI.framework */,
 				76862AB11B302E5E009CDA15 /* Accounts.framework */,
 				76862AB21B302E5E009CDA15 /* Social.framework */,
 				7601F3DE1B2FFE5200D5E366 /* CFNetwork.framework */,
@@ -152,9 +169,16 @@
 		7601F3871B2FFCF200D5E366 /* ChowFast */ = {
 			isa = PBXGroup;
 			children = (
+				766E7C7B1B3859170096B8AA /* Bridging-Header.h */,
 				7601F38A1B2FFCF200D5E366 /* AppDelegate.swift */,
+				7668045B1B576DA600D4E373 /* FeedbackViewController.swift */,
+				7638351F1B39B23F00B63DEB /* DetailViewController.swift */,
+				76768C7F1B399D0C00B5000E /* TableViewController.swift */,
 				7601F38C1B2FFCF200D5E366 /* ViewController.swift */,
 				76862AB51B303100009CDA15 /* CustomLoginViewController.swift */,
+				76EFCBF51B510CC80053A36D /* eWalletViewController.swift */,
+				762D6F671B59571D002025E4 /* Notifications.swift */,
+				765FEEFF1B5C0CB50049CAAA /* ReservationViewController.swift */,
 				76862AB71B303117009CDA15 /* CustomSignUpViewController.swift */,
 				7601F38E1B2FFCF200D5E366 /* Main.storyboard */,
 				7601F3911B2FFCF200D5E366 /* Images.xcassets */,
@@ -251,6 +275,7 @@
 				TargetAttributes = {
 					7601F3841B2FFCF100D5E366 = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = H928Z34ENQ;
 					};
 					7601F3991B2FFCF200D5E366 = {
 						CreatedOnToolsVersion = 6.3.2;
@@ -302,9 +327,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76EFCBF61B510CC80053A36D /* eWalletViewController.swift in Sources */,
 				76862AB61B303100009CDA15 /* CustomLoginViewController.swift in Sources */,
 				7601F38D1B2FFCF200D5E366 /* ViewController.swift in Sources */,
+				762D6F681B59571D002025E4 /* Notifications.swift in Sources */,
+				7668045C1B576DA600D4E373 /* FeedbackViewController.swift in Sources */,
+				765FEF001B5C0CB50049CAAA /* ReservationViewController.swift in Sources */,
 				76862AB81B303117009CDA15 /* CustomSignUpViewController.swift in Sources */,
+				763835201B39B23F00B63DEB /* DetailViewController.swift in Sources */,
+				76768C801B399D0C00B5000E /* TableViewController.swift in Sources */,
 				7601F38B1B2FFCF200D5E366 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,6 +463,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Framework",
@@ -439,6 +472,8 @@
 				INFOPLIST_FILE = ChowFast/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/tjr/Documents/ChowFast/ChowFast/Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -446,6 +481,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Framework",
@@ -453,6 +490,8 @@
 				INFOPLIST_FILE = ChowFast/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/tjr/Documents/ChowFast/ChowFast/Bridging-Header.h";
 			};
 			name = Release;
 		};
